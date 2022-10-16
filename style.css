@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    display: block;
+    text-align: center;
+}
+
+body {
+    background-image: url(https://images.pexels.com/photos/53594/blue-clouds-day-fluffy-53594.jpeg?cs=srgb&dl=pexels-pixabay-53594.jpg&fm=jpg);
+}
+
+.lights {
+    display: inline-block;
+    background-color: black;
+    width: 140px;
+    height: 380px;
+    border: 10px solid #353b48;
+    border-radius: 20px;
+}
+
+.lights div {
+    margin: 0 auto;
+}
+
+.wrapper {
+    display: inline-block;
+}
+
+.holder {
+    width: 30px;
+    height: 200px;
+    background-color: black;
+    margin: 0 auto;
+    margin-top: -20px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.lights div {
+    margin-top: 5px;
+}
+
+.buttons {
+    margin: 10px;
+    margin-left: 0px;
+    align-items: center;
+}
+
+.buttons button {
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    transition: all .2s ease-in-out;
+    border-radius: 10px;
+}
+
+#red-btn {
+    background-color: #c0392b;
+    border: none;
+    margin-right: 40px;
+}
+
+#red-btn:hover {
+    background-color: #912c21;
+    scale: 20px;
+    transform: scale(1.1);
+}
+
+#green-btn {
+    background-color: #27ae60;
+    border: none;
+}
+
+#green-btn:hover {
+    background-color: #1c7d44;
+    transform: scale(1.1);
+}
+
+#red,
+#yellow,
+#green {
+    border-radius: 40px;
+}
+
+#red {
+    height: 100px;
+    width: 100px;
+    background: linear-gradient(to bottom, rgba(255, 0, 0, 1) 50%, rgba(255, 115, 115, 1) 50%);
+    border: 10px solid darkred;
+}
+
+#yellow {
+    height: 100px;
+    width: 100px;
+    background: conic-gradient(yellow 0deg, yellow 90deg, #ffff99 90deg, #ffff99 180deg, yellow 180deg, yellow 270deg, yellow 270deg);
+    border: 10px solid orange;
+}
+
+#green {
+    height: 100px;
+    width: 100px;
+    background: conic-gradient(green 0deg, green 90deg, green 90deg, green 180deg, #2eb82e 180deg, #2eb82e 270deg, green 270deg);
+    border: 10px solid darkgreen;
+}
